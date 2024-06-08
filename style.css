@@ -1,1 +1,162 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(to bottom, #e1eec5, #fadfcc, #b7ffde);
+}
+
+
+
+
+
+
+
+.animation__circle{
+    width: 60px;
+    height: 60px;
+    border: 5px double black;
+    border-radius: 50%;
+    background-color: #c30425;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+animation-timing-function: ease-in-out;
+
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+margin: -10px;
+    }
+
+@keyframes circle{
+
+0%{
+  left: 0%;
+ 
+}
+
+10% {
+    background-color: #d66f0e;
+}
+
+30% {
+background-color: #fde74c;
+}
+
+50% {
+  
+  background-color: #7c9e31;
+  
+}
+
+70% {
+    background-color: #499abc;
+}
+
+85% {
+    background-color: #843b62;
+}
+
+100% {
+  left: 100%;
+  
+}
+}
+td {
+    border: 3px solid black;
+}
+
+table {
+    border: 5px solid #499abc;
+    background-image: linear-gradient(to right, red, #fa7921, #fde74c, green, #52add4, #843b62);
+   color: #ffffff;
+   text-align: center; 
+   padding: 10px;
+   margin-left: 7%;
+   margin-right: 7%;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+}
+
+h1 {
+    border: 4px groove #fa7921;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 5px #7c9e31;
+}
+
+h3 {
+font-size: 30px;
+}
+
+footer p{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.red:hover {
+    border: 7px groove #c30425;
+    padding: 15px;
+    background-color: #fff0f0;
+    color: #c30425;
+    font-size: 30px;
+}
+
+.orange:hover {
+    border: 7px groove #f17e32;
+    padding: 15px;
+    background-color: #fff0f0;
+    color: #f17e32;
+    font-size: 30px;
+}
+
+.yellow:hover {
+border: 7px groove #ffe74c;
+ padding: 15px;
+    background-color: #fff0f0;
+    color: #e6d044;
+    font-size: 30px;
+}
+
+
+.green:hover {
+   border: 7px groove #56c160;
+ padding: 15px;
+    background-color: #fff0f0;
+    color: #56c160;
+    font-size: 30px; 
+}
+
+.blue:hover {
+   border: 7px groove #3096e6;
+ padding: 15px;
+    background-color: #fff0f0;
+    color: #3096e6;
+    font-size: 30px;  
+}
+
+.purple:hover {
+    border: 7px groove #843b62;
+ padding: 15px;
+    background-color: #fff0f0;
+    color: #843b62;
+    font-size: 30px; 
+}
+
+.white:hover {
+    border: 7px groove white;
+    padding: 15px;
+   font-size: 30px;
+   background-color: #fff0f0;
+}
+
+.black:hover {
+  border: 7px groove black;  
+  padding: 15px;
+  background-color: #fff0f0;
+}
 
